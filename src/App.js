@@ -348,7 +348,7 @@ const Sidebar = ({ sections, activeSheet, setActiveSheet }) => {
     return (
         <aside className="w-full md:w-64 bg-white border-b md:border-b-0 md:border-r border-slate-200 p-3 md:fixed md:h-full flex flex-col">
             <div className="mb-4">
-                <h1 className="text-lg font-bold text-slate-900 mb-3">Cheatsheets</h1>
+                <h1 className="text-lg font-bold text-slate-900 mb-3">DB Cheat Sheet by Harsh</h1>
                 <div className="flex bg-slate-100 rounded-lg p-1 text-xs">
                     <button 
                         onClick={() => setActiveSheet('mongo')}
