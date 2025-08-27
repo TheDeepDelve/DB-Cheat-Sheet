@@ -351,19 +351,19 @@ const Sidebar = ({ sections, activeSheet, setActiveSheet }) => {
                 <h1 className="text-lg font-bold text-slate-900 mb-3">DB Cheat Sheet by Harsh</h1>
                 <div className="flex bg-slate-100 rounded-lg p-1 text-xs">
                     <button 
-                        onClick={() => setActiveSheet('mongo')}
+                        onClick={() => setActiveSheet('sql')}
                         className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'sql' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
                     >
                         SQL
                     </button>
                     <button 
-                        onClick={() => setActiveSheet('sql')}
+                        onClick={() => setActiveSheet('postgres')}
                         className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'postgres' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
                     >
                         PostgreSQL
                     </button>
                     <button 
-                        onClick={() => setActiveSheet('postgres')}
+                        onClick={() => setActiveSheet('mongo')}
                         className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'mongo' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
                     >
                         MongoDB
