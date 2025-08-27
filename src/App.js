@@ -348,7 +348,7 @@ const Sidebar = ({ sections, activeSheet, setActiveSheet }) => {
     return (
         <aside className="w-full md:w-64 bg-white border-b md:border-b-0 md:border-r border-slate-200 p-3 md:fixed md:h-full flex flex-col">
             <div className="mb-4">
-                <h1 className="text-lg font-bold text-slate-900 mb-3">DB Cheat Sheet by Harsh</h1>
+                <h1 className="text-lg font-bold text-slate-900 mb-3">Cheatsheets</h1>
                 <div className="flex bg-slate-100 rounded-lg p-1 text-xs">
                     <button 
                         onClick={() => setActiveSheet('mongo')}
@@ -442,13 +442,13 @@ const ReferenceTable = () => (
             </div>
             <div className="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
                 <h3 className="font-semibold mb-2 text-slate-800">products</h3>
-                <table className="w-full text-sm text-left text-slate-500">
+                <table className="w-full text-sm text-left text-slate-500 table-fixed">
                     <thead className="text-xs text-slate-700 uppercase bg-slate-50">
                         <tr>
-                            <th scope="col" className="px-4 py-2">product_id</th>
-                            <th scope="col" className="px-4 py-2">product_name</th>
-                            <th scope="col" className="px-4 py-2">price</th>
-                            <th scope="col" className="px-4 py-2">seller_id</th>
+                            <th scope="col" className="px-4 py-2 w-1/4">product_id</th>
+                            <th scope="col" className="px-4 py-2 w-1/2">product_name</th>
+                            <th scope="col" className="px-4 py-2 w-1/4">price</th>
+                            <th scope="col" className="px-4 py-2 w-1/4">seller_id</th>
                         </tr>
                     </thead>
                     <tbody>
