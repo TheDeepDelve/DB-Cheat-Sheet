@@ -352,21 +352,21 @@ const Sidebar = ({ sections, activeSheet, setActiveSheet }) => {
                 <div className="flex bg-slate-100 rounded-lg p-1 text-xs">
                     <button 
                         onClick={() => setActiveSheet('mongo')}
-                        className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'mongo' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
-                    >
-                        MongoDB
-                    </button>
-                    <button 
-                        onClick={() => setActiveSheet('sql')}
                         className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'sql' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
                     >
                         SQL
                     </button>
                     <button 
-                        onClick={() => setActiveSheet('postgres')}
+                        onClick={() => setActiveSheet('sql')}
                         className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'postgres' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
                     >
                         PostgreSQL
+                    </button>
+                    <button 
+                        onClick={() => setActiveSheet('postgres')}
+                        className={`flex-1 py-1 rounded-md transition-colors ${activeSheet === 'mongo' ? 'bg-white shadow text-teal-600 font-semibold' : 'text-slate-600'}`}
+                    >
+                        MongoDB
                     </button>
                 </div>
             </div>
