@@ -23,12 +23,10 @@
 **DB Cheat Sheet** is a single-page web application that helps developers quickly find and copy essential database commands for MongoDB, SQL, and PostgreSQL. It features categorized sections, search, and a clean, responsive UI.
 
 ## Features
-- 📚 Cheat sheets for MongoDB, SQL, and PostgreSQL
-- 🔍 Fast command search and filtering
-- 🧩 Categorized sections for each database
-- 💡 Example reference tables
-- 🎨 Responsive, modern UI with Tailwind CSS
-- 📝 Copy-paste ready code blocks
+- Cheat sheets for MongoDB, SQL, and PostgreSQL
+- Fast command search and filtering
+- Categorized sections for each database
+- Example reference tables
 
 ## Tech Stack
 - [React](https://react.dev/) (v19)
